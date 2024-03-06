@@ -5,7 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
+    <div id="wrapper">
+        <h1>Number guessing game</h1>
+        <p>Try and guess a random number between 1 to 100</p>
+        <p>You have 10 attempts to guess the right number</p>
+        <br>
+        <form action="" class="form">
+        <label for="guessfeild" id="guess">Guess a number: </label>
+        <input type="text" name="" id="guessfeild" class="guessfeild">
+        <br><br>
+        <input type="submit" name="" id="subt" value="Submit guess" class="guesssubmit">
+    </form>
     
+        <div class="resultparas">
+            <p>Previous guess:  <span class="guesses"></span></p>
+            <p>Guessses remaining <span class="lastresult">10</span></p>
+            <p class="loworhi"></p>
+        </div>
+    </div>
+
+
+    <script src="/logic.js"></script>
 </body>
 </html>
