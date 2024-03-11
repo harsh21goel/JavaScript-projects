@@ -51,3 +51,8 @@ body{
 #subt:hover {
     background-color: #999; /* Darker gray background on hover */
 }
+.guesses{
+    background-color: #868686;
+    border-radius: 5px;
+    padding: 5px;
+}
